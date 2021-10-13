@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+  --site-content-width: 1200px;
+}
+
+.at { color:#00E063; }
+
+body{
+  overflow-x: hidden;
+}
+
+/* 탑버튼 */
+.return-top{
+  width:100px;
+  height:100px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.site-wrap {
+  margin-left:var(--side-bar__width);
+}
+
+.con-min-width {
+  min-width: var(--site-content-width);
+}
+
+.con {
+  width: var(--site-content-width);
+}
+
+
+/* 탑메뉴 */
+.top-bar {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 49;
+  display: flex;
+  align-items: center;
+}
+
+.top-bar_1{
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 49;
+  top:158px;
+}
+
+.top-bar_1 > div > ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.top-bar_1 > div > ul > li {
+  margin-left: 10px;
+  margin-right: 47px;
+  font-weight: 900;
+}
+
+.top-bar > div {
+  display: flex;
+}
+
+.foot{
+  display: flex;
+  justify-content: center;
+}
+
+.text_1 {
+  background-color: #00E063;
+  border-radius: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+}
